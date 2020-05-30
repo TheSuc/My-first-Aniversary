@@ -1,0 +1,79 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+header{
+	background: #cb9191;
+}
+.mensaje_aniversario{
+	padding: 20px;
+}
+header h1{
+	color: #4B4B4B;
+	text-align: center;
+	font-size: 2.5em;
+}
+header nav{
+	background: #edd7d7;
+	overflow: hidden;/*Limpiar , flot pero no salgas de tu contenedor*/
+	padding: 10px;
+}
+header nav ul{
+	list-style: none;
+}
+header nav ul li{
+	float: left;
+}
+header nav ul li a{
+	color: #4B4B4B;
+	display: block;
+	margin-left: 5px;
+	padding-right: 15px;
+	padding-bottom: 5px;
+	padding-left: 10px;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+header nav ul li a:hover{
+	background: #cb9191;
+}
+main{
+	position: relative;
+	background-color: #FAACA8;
+    background-image: linear-gradient(106deg, #FAACA8 0%, #ffffff 100%);
+	padding: 50px;
+}
+main div img{
+	width: 300px;
+	height: 400px;
+	border: 2px solid background-color: #FAACA8;
+	border-radius: 10px;
+}
+main .nota{
+	position: absolute;
+	padding: 10px;
+	right: 50px;
+	left: 400px;
+	top: 50px;
+	height: 400px;
+	border: 2px solid #ce413b;
+	border-radius: 10px;
+	float: left;
+}
+main .nota h2{
+	font-weight: bold;
+	font-size: 50px;
+	color: #ce413b;
+}
+main .nota p{
+	font-size: 20px;
+	color: #4B4B4B;
+}
+footer{
+	background: #474040;
+	color: #edd7d7;
+	font-size: 2em;
+	text-align: center;
+	padding: 7.5px 0px; 
+}
